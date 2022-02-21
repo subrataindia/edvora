@@ -1,6 +1,6 @@
-# [Edvora ]
+# Edvora-Subrta Project
 
-This project is created as a task for the interview process of [Edvora - Where the future learns].
+This project is created as a task for the interview process of [Edvora - Where the future learns](https://www.edvora.com/).
 
 # Screenshots
 
