@@ -27,7 +27,7 @@ This project is created as a task for the interview process of [Edvora - Where t
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/subratsir/Entertainment-Zone/issues).
+Feel free to check the [issues page](https://github.com/subratsir/edvora/issues).
 
 ## Show your support
 
