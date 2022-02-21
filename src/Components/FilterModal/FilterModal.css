@@ -1,0 +1,29 @@
+.filterModal {
+    position: fixed;
+    z-index: 1;
+    right: 85px;
+    width: 208px;
+    height: 130px;
+    background: var(--primary-color-dark);
+    border-radius: 15px; 
+    padding: 20px;
+    font-family: SF Pro Display;
+    border: 1px solid var(--text-color)
+}
+
+.filterModal select {
+    background-color: var(--primary-color-light);
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    color: var(--text-color);
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;    
+    margin-top: 15px;
+}
+
+.filterTitle {
+    margin-bottom: 10px;
+}

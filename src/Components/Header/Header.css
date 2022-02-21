@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    background: #101010;
+}
+
+.headerStart {
+    margin-left: 43px;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 43px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+
+.headerEnd {
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;  
+    color: #FFFFFF;  
+}
+
+.userImage img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin: 0px 30px 0px 20px;
+}
