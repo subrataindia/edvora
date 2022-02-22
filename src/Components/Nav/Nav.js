@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import './Nav.css'
 import { HiMenuAlt2 } from "react-icons/hi"
 import FilterModal from '../FilterModal/FilterModal'
 
-const Nav = ({states, cities, setCity, setState}) => {
+const Nav = () => {
   const [filterModalDisplay, setFilterModalDisplay] = useState(false);
 
   const handleFilterModalDisplay = () => {
@@ -16,7 +16,7 @@ const Nav = ({states, cities, setCity, setState}) => {
 
   return (
       <>
-        { filterModalDisplay || <FilterModal states={states} cities={cities} setCity={setCity} setState={setState}/>}
+        { filterModalDisplay || <FilterModal/>}
         <nav>
         <ul>
             <li>Nearest rides</li>

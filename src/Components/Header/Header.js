@@ -1,7 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Header.css'
+import DataContext from '../../Components/Context/DataContext/DataContext'
 
-function Header({user}){
+function Header(){
+  const { user } = useContext(DataContext);
+
   return (
     <header className='header'>
       <h1 className='headerStart'>Edvora</h1>
