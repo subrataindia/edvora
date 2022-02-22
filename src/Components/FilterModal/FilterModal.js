@@ -1,7 +1,9 @@
 import React, { useContext } from 'react'
 import './FilterModal.css'
+import DataContext from '../../Components/Context/DataContext/DataContext'
 
-const FilterModal = ({states, cities, setState, setCity}) => {
+const FilterModal = () => {
+    const {states, cities, setCity, setState} = useContext(DataContext);
 
     // console.log("filtermodal");
     // console.log(cities);
